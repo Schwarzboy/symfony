@@ -20,7 +20,7 @@ class wordController extends AbstractController
             '6'=>'Lukas',
             '7'=>'Johannes',
         ];
-        
+        dd($books);
         return $this->render('word/home.html.twig', [
             'title' => 'In the Beginning was the word...',
             'books' => $books,
