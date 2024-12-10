@@ -12,9 +12,10 @@ class wordController
         return new Response('Learning the Word');
     }
 
+    #[Route('/browse')]
     public function browse (){
 
-        #[Route('/browse')]
+        
         return new Response('This is another Page');
     }
 }

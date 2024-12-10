@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Navigate to a Bible book  {{ parent() }} {% endblock %}
+
+{% block body %}
+<h1>{{title}}</h1>
+
+<div>
+        Bible Books :
+    
+    <ul>
+        {% for book in books %}
+            <li>{{book}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}
