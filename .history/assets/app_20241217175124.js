@@ -9,6 +9,6 @@
 import './styles/app.css';
 
 // start the Stimulus application
-// import './bootstrap';
+import './bootstrap';
 
 console.log('Hello my name is app.js')
