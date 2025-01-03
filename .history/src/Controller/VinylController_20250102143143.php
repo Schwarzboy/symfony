@@ -2,7 +2,8 @@
 
 namespace App\Controller;
 
-use App\Service\MixRepository;
+use App\Serve\MixRepository;
+use Psr\Cache\CacheItemInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
